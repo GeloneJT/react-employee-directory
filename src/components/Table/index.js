@@ -18,6 +18,13 @@ class Table extends React.Component {
         })
     }
 
+    handleInputChange = (event) => {
+        let {name, value} = event.target;
+        this.setState({
+            [name]: value,
+        })
+    }
+
     render(){
         return (
 
