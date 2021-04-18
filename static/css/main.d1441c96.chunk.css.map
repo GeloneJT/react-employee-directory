@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/Header/style.css"],"names":[],"mappings":"AAAA,OACI,iBAAkB,CAClB,wBAAyB,CACzB,eACJ","file":"main.d1441c96.chunk.css","sourcesContent":["Header {\r\n    text-align: center;\r\n    background-color:darkcyan;\r\n    font-weight:900;\r\n}"]}
