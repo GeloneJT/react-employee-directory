@@ -19,6 +19,8 @@ class Directory extends Component {
     });
   }
 
+  
+
   handleInputChange = (event) => {
     const name = event.target.name;
     const value = event.target.value;
@@ -52,11 +54,10 @@ class Directory extends Component {
       employeeAlpha: empSort,
     });
   };
-
+  
   render() {
     return (
       <div>
-        <h1>Directory</h1>
         <hr></hr>
         <Form
           search={this.state.search}

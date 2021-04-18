@@ -25,7 +25,7 @@ function Table(props) {
           {props.employeeList.length > 0 ? (
             props.employeeList.map((employee) => {
               return (
-                <tr>
+                <tr key={employee.login.uuid}>
                   <th>
                     <img src={employee.picture.thumbnail} alt="profPic" />
                   </th>
