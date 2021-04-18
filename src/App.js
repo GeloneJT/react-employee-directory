@@ -1,14 +1,12 @@
-import { BrowserRouter as Router } from "react-router-dom";
+import React from "react";
 import Directory from "./pages/Directory";
 
 function App() {
   return (
-    <Router basename="/user-directory">
-      <div>
-        <Directory />
-      </div>
-    </Router>
-  );
+    <div>
+      <Directory />
+    </div>
+  )
 }
 
 export default App;
