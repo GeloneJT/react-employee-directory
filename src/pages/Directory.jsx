@@ -9,6 +9,7 @@ class Directory extends Component {
     employeeZeta: [],
     search: "",
   };
+
   componentDidMount() {
     API.search().then((res) => {
       this.setState({
@@ -33,6 +34,7 @@ class Directory extends Component {
     });
     this.setState({ employeeAlpha: empFilter });
   };
+
   handleSearch = (event) => {
     event.preventDefault();
     const empSearch = event.target.value;
@@ -40,6 +42,7 @@ class Directory extends Component {
       search: empSearch,
     });
   };
+
   handleToggle = () => {
     const empSort = this.state.employeeAlpha.sort((a, b) => {
       return a.name.first.localeCompare(b.name.first);
@@ -49,6 +52,7 @@ class Directory extends Component {
       employeeAlpha: empSort,
     });
   };
+
   render() {
     return (
       <div>
@@ -62,8 +66,7 @@ class Directory extends Component {
         <Table
           employeeList={this.state.employeeAlpha}
           search={this.handleSearch}
-          toggle={this.handleToggle}
-          sort={this.handleSort}
+          handleToggle={this.handleToggle}
         />
       </div>
     );
