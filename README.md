@@ -40,7 +40,9 @@
 
   ![Sort](img/DirectorSrchSort.png)
 
-  <hr>
+  # `Using this link` [here]("https://gelonejt.github.io/react-employee-directory/") `will take you the gh-pages launched application.`
+
+
 
   ## Credit
   Jelani Thomas
