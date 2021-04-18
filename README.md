@@ -1,7 +1,7 @@
 # Employee Directory
 
   ## Description
-   As an employer or employeee of a company I want to be able to search my directory from a particular co-worker. The application shows the capabilites of Reactjs being used to pull a list of employees and populate the table with the API data. Using the search field the user can search for a known employee in the database and Reacts' `setState` then search filters through the employee list to filter out an employee(s) within the company based on the search parameters. The API data return in this application comes from [Random User API](https://randomuser.me/) and populates the field.
+   As an employer or employee of a company I want to be able to search my directory from a particular co-worker. The application shows the capabilites of Reactjs being used to pull a list of employees and populate the table with the API data. Using the search field the user can search for a known employee in the database and Reacts' `setState` then search filters through the employee list to filter out an employee(s) within the company based on the search parameters. The API data return in this application comes from [Random User API](https://randomuser.me/) and populates the field.
 
   ## Table of contents
   - [Installation](#installation)
