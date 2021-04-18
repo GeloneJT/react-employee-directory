@@ -8,7 +8,7 @@ function Table(props) {
           <tr>
             <th scope="col">Image</th>
             <th
-              onClick={props.toggleChange}
+              onClick={props.handleToggle}
               className="dropdown-toggle"
               role="button"
               data-toggle="dropdown"

@@ -56,7 +56,8 @@ class Directory extends Component {
         <hr></hr>
         <Form
           search={this.state.search}
-          handleInputChange={this.handleSearch}
+          handleInputChange={this.handleInputChange}
+          handleSearch={this.handleSearch}
         />
         <Table
           employeeList={this.state.employeeAlpha}
