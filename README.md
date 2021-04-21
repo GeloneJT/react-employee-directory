@@ -41,7 +41,7 @@
   ![Sort](img/DirectorSrchSort.png)
 
   # Use the link provided below to take you the gh-pages launched application.
-  ![React User Directory]("https://gelonejt.github.io/react-employee-directory/")
+  [React User Directory](https://gelonejt.github.io/react-employee-directory/)
 
 
 
